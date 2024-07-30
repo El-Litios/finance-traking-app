@@ -44,8 +44,6 @@ const percetageTrend = computed(() => {
 
   const ratio = ((bigger - lower)/ lower) * 100;
 
-  console.log(ratio);
-
   return `${Math.ceil(ratio)}%`
   
 })
